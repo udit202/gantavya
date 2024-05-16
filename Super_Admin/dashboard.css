@@ -1,0 +1,117 @@
+.container_div{
+    width: 100%;
+    height: 620px;
+    background-color: rgba(211, 207, 207, 0.709);
+    position: relative;
+}
+.menu{
+    width: 16%;
+    height: 95%;
+    position: absolute;
+    top: 20px;
+    left: 5px;
+    background-color: black;
+    text-align: center;
+    border-radius: 12px;
+     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.menu>h3{
+    padding-top: 5px;
+    color: white;
+    font-size: 19px;
+
+}
+.menu>ul{
+    text-align: center;
+    padding-bottom: 30px;
+    
+}
+.menu>ul>li{
+    display: inline-block;
+    width: 80%;
+    background-color: rgba(55, 54, 54, 0.736);
+    margin-left: -30px;
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 8px;
+    color: white;
+}
+/* .menu>ul>li:nth-child(1){
+    background-color: red;
+    color: white;
+} */
+.menu>ul>li:HOVER{
+    background-color: red;
+    cursor: pointer;
+    
+}
+.logo{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 81.5%;
+    height: 60px;
+}
+.logo>h1{
+    margin-top: 10px;
+    font-weight: 900;
+}
+.content{
+    position: absolute;
+    top: 65px;
+    right: 0px;
+    width: 82.5%;
+    /* background-color: rgb(20, 64, 165); */
+    height: 550px;
+    overflow: scroll;
+}
+.data{
+    width: 100%;
+    height: 98%;
+    overflow: scroll;
+    
+}
+.overview{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.overview>div{
+    width: 230px;
+    height: 100px;
+    background-color:white;
+    border-radius: 8px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.chart{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+}
+.chart>div{
+    width: 45%;
+    height: 250px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.data{
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+   
+}
+.data>h1{
+    text-align: center;
+}
+/* Vechle Verification form css */
